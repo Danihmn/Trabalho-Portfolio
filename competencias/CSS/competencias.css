@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(135deg, #003566 0%, #001D3D 100%);
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.competencias-container {
+    max-width: 900px;
+    margin: 3rem auto 7rem auto;
+    padding: 2rem;
+    background: rgba(0, 29, 61, 0.85);
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+
+.competencias-titulo {
+    color: #FFC300;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+.competencias-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.competencia-card {
+    background: linear-gradient(135deg, #003566 60%, #001D3D 100%);
+    border-radius: 1rem;
+    padding: 2rem 1.5rem;
+    width: 240px;
+    color: #FFC300;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.competencia-card:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.22);
+    background: linear-gradient(135deg, #FFC300 60%, #FFD60A 100%);
+    color: #001D3D;
+}
+
+.competencia-card i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.competencia-nome {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.competencia-desc {
+    font-size: 1rem;
+    color: #FFD60A;
+}
+
+.competencia-card:hover .competencia-desc {
+    color: #001D3D;
+}

@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(135deg, #003566 0%, #001D3D 100%);
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contato-container {
+    max-width: 500px;
+    margin: 5rem auto 7rem auto;
+    padding: 2rem;
+    background: rgba(0, 29, 61, 0.85);
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+    color: #FFC300;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.contato-titulo {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contato-form label {
+    font-weight: bold;
+    color: #FFD60A;
+}
+
+.contato-form input,
+.contato-form textarea {
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    border: none;
+    font-size: 1rem;
+    background: #001D3D;
+    color: #FFC300;
+    resize: none;
+}
+
+.contato-form input:focus,
+.contato-form textarea:focus {
+    outline: 2px solid #FFC300;
+    background: #003566;
+}
+
+.contato-form button {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background: linear-gradient(90deg, #FFC300 60%, #FFD60A 100%);
+    color: #001D3D;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.contato-form button:hover {
+    background: linear-gradient(90deg, #FFD60A 60%, #FFC300 100%);
+    transform: scale(1.04);
+}
+
+.contato-info {
+    margin-top: 2rem;
+    text-align: center;
+    color: #FFD60A;
+}
+
+.contato-info a {
+    color: #FFC300;
+    text-decoration: underline;
+}

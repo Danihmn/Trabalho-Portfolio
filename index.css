@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(135deg, #003566 0%, #001D3D 100%);
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#menu-principal {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#parte-superior,
+#parte-inferior {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.botao-menu {
+    padding: 1rem;
+    background: linear-gradient(90deg, #001D3D 60%, #003566 100%);
+    border-radius: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0;
+    color: #FFC300;
+    width: 14rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+    transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.botao-menu:hover,
+.botao-menu:focus {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(90deg, #FFC300 60%, #FFD60A 100%);
+    color: #001D3D;
+}

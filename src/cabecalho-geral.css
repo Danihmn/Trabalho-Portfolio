@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8ecae6;
+}
+
+#titulo {
+    font-size: 1.5rem;
+}
+
+.cabecalho {
+    background-color: #000814;
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#titulo {
+    color: #FFD60A;
+}
+
+.botao-superior {
+    text-decoration: none;
+    margin-left: 2rem;
+    color: #FFC300;
+}

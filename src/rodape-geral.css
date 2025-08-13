@@ -1,0 +1,29 @@
+.rodape-geral {
+    width: 100%;
+    background: linear-gradient(90deg, #001D3D 60%, #003566 100%);
+    color: #FFC300;
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.18);
+    z-index: 100;
+    transition: background 0.3s;
+}
+
+.rodape-geral a {
+    color: #FFD60A;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.2s;
+    font-weight: bold;
+}
+
+.rodape-geral a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
